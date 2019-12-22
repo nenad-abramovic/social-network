@@ -13,7 +13,7 @@ ___
 ## Installing
 Just clone repository and run it with live server.
 ___
-## Folder sturcture
+## Folder structure
 <pre><font color="#3465A4"><b>.</b></font>
 ├── <font color="#3465A4"><b>assets</b></font>
 │   ├── data.json // Provided dataset
