@@ -8,7 +8,7 @@ The goal of this test was to create a Web app for examining a Social Network. We
 *There were some inconsistencies in given dataset (user with id 18 has only one friend (id 17) but two other user has this user as friend (id 17 and 20)) so some results may not come out as expected.
 ___
 ## Prerequisites
-Live server is requred to run this project.
+Live server is required to run this project.
 ___
 ## Installing
 Just clone repository and run it with live server.
