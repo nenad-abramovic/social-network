@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-size: 0.8rem;
+}
+
+
+body {
+  color: rgba(0, 0, 0, 0.665);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  background-color: rgba(113, 158, 179, 0.877);
+  overflow: auto;
+  position: relative;
+}
+
+#root::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+header {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  margin: 100px auto;
+  position: relative;
+  width: 100%;
+}
+
+.user-container {
+  background-color: rgb(49, 105, 138);
+  border: 2px solid rgba(1, 15, 27, 0.61);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(49, 105, 138);
+  color: white;
+  display: inline-block;
+  height: 80px;
+  margin: 80px;
+  margin-top: 100px;
+  padding: 5px;
+  position: relative;
+  width: 160px;
+}
+
+.user-container::after {
+  background-color: rgba(0, 162, 255, 0.11);
+  border: 1px solid rgb(76, 169, 212);
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 25%;
+  left:7px;
+  position: relative; /* absolute; */
+  top:-45px;
+  visibility: visible;
+  width: 10%;
+}
+
+.user-container p {
+  margin: 2px;
+  margin-left: 35px;
+}
+
+.user-container span {
+  float: right;
+  margin-right: 35px;
+  text-align: center;
+  width: 20px;
+}
+
+.fullname {
+  margin: 3px;
+  text-align: center;
+}
+
+.type-of-friends {
+  margin-left: 15px;
+}
+
+footer {
+  bottom: 0;
+  clear: both;
+  float: left;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+} 
+
+.line {
+  background-color: rgb(3, 16, 20);
+  border-radius: 20px;
+  height : 10px;
+  left: 17px;
+  position: absolute;
+  top: 35px;
+  transform-origin: left 50%;
+  z-index: -1;
+}
